@@ -1,0 +1,10 @@
+*.script_ok
+Makefile
+Makefile.am
+Makefile.in
+fw.local
+gshare
+megatmp
+share
+test-template
+test-template.out
