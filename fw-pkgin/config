@@ -2,7 +2,7 @@
 # variable FW_PACKAGE_DEFAULT_MAINTAINER if non-empty at init time
 
 FW_PACKAGE_NAME="fw-template-java-mvn"
-FW_PACKAGE_VERSION="0.0.1"
+FW_PACKAGE_VERSION="0.0.2"
 FW_PACKAGE_MAINTAINER="Anthony Molinaro <anthonym@alumni.caltech.edu>"
 FW_PACKAGE_SHORT_DESCRIPTION="Java development template for framewerk using maven to build."
 FW_PACKAGE_DESCRIPTION=`cat README`
@@ -20,7 +20,7 @@ FW_PACKAGE_PROVIDES=""
 FW_PACKAGE_REPLACES=""
 FW_PACKAGE_SUGGESTS=""
 
-FW_PACKAGE_BUILD_DEPENDS=""
+FW_PACKAGE_BUILD_DEPENDS="maven, jdk"
 FW_PACKAGE_BUILD_CONFLICTS=""
 
 # dupload is used for submitting debian packages to a package archive

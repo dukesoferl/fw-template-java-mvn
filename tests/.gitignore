@@ -1,4 +1,6 @@
+*.log
 *.script_ok
+*.trs
 Makefile
 Makefile.am
 Makefile.in
